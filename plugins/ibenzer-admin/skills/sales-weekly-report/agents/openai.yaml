@@ -1,0 +1,3 @@
+interface:
+  display_name: "Sales Weekly Report"
+  short_description: "Reconcile sales, Nutshell activity, weekly workbook, and Gmail drafts"

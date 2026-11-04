@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ibenzer-accounting",
+  "version": "0.1.0",
+  "description": "iBenzer accounting workflows: monthly and annual accounts, reconciliation, commission, payroll, Aging, and source-verified financial reporting.",
+  "author": {
+    "name": "iBenzer"
+  },
+  "keywords": ["ibenzer", "accounting", "monthly report", "commission", "payroll"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "iBenzer Accounting",
+        "shortDescription": "Accounting, reports, reconciliation, payroll and commission workflows.",
+        "developerName": "iBenzer",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "defaultPrompt": [
+          "Complete the requested iBenzer accounting task using the matching workflow and verify all source data before updating any workbook.",
+          "Review this accounting report against the current source data and list only exceptions requiring a decision."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Order Fulfillment"
+  short_description: "Process PO through tracking, CRM, and invoicing"

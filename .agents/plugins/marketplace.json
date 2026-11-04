@@ -1,0 +1,32 @@
+{
+  "name": "ibenzer-operations",
+  "interface": {
+    "displayName": "iBenzer Operations"
+  },
+  "plugins": [
+    {
+      "name": "ibenzer-accounting",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ibenzer-accounting"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "ibenzer-admin",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ibenzer-admin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

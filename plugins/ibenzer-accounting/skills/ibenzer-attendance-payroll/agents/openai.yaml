@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ibenzer Attendance Payroll"
+  short_description: "Maintain formula-driven iBenzer attendance and payroll records"
+  default_prompt: "Use $ibenzer-attendance-payroll to update this attendance period from the corrected source record and reconcile every required Detail, Summary, Monthly, and payroll output."

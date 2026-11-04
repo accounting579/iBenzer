@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ibenzer-admin",
+  "version": "0.1.0",
+  "description": "iBenzer operations workflows: orders, shipping, bids, customer operations, sales and VA reports, task tracking, and execution controls.",
+  "author": {
+    "name": "iBenzer"
+  },
+  "keywords": ["ibenzer", "admin", "operations", "orders", "shipping", "bid", "tasks"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "iBenzer Admin",
+        "shortDescription": "Orders, shipping, bids, operations, task tracking and business reports.",
+        "developerName": "iBenzer",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "defaultPrompt": [
+          "Complete the requested iBenzer operational task using the matching workflow, preserve the existing destination and verify the result.",
+          "Update this iBenzer tracker from the authoritative source and report only blockers or decisions needed."
+        ]
+      }
+    }
+  }
+}
